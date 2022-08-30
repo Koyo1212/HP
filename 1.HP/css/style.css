@@ -656,6 +656,7 @@ transition: 0.3s;
 .footer-wrapper__box__list__item a {
   color: #fff;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .footer-wrapper__box__list__item a:hover {
