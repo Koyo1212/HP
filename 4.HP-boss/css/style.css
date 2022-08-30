@@ -49,6 +49,36 @@ body {
   font-size: 68%;
 }
 
+.header ul li ul li a {
+
+  font-size: 130%;
+}
+
+.header ul li:hover ul li a {
+  line-height: 1.5;
+
+  font-weight: bold;
+}
+
+
+.header ul li ul li {
+  height: 0;
+
+  overflow: hidden;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.header ul li:hover ul li {
+  width: 100%;
+  background-color: #EAEAEA;
+  margin-top: 10%;
+  height: auto;
+  overflow: visible;
+  border-bottom: solid red 3px;
+
+}
+
 .main-wrapper {
 
   width: 100%;
